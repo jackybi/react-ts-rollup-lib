@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Apache24\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jackybi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2020.2.3\bin;;C:\Program Files\JetBrains\PyCharm Edu 2020.2.3\bin;;C:\Users\jackybi\AppData\Local\GitHubDesktop\bin;C:\Users\jackybi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jackybi\AppData\Local\Yarn\bin;C:\Apache24\bin;C:\Users\jackybi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\jackybi\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\jackybi\Documents\GitHub\react-demo-component\package.json: Unexpected token } in JSON at position 380
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-demo-component",
+    "version": "1.0.0",
+    "description": "React Component",
+    "main": "index.js",
+    "author": "jacky bi",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+      "@types/node": "^16.11.36",
+      "@types/react": "^18.0.9",
+      "@types/react-dom": "^18.0.4",
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0",
+      "typescript": "^4.6.4",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
