@@ -16,10 +16,8 @@
     "format": "prettier-eslint 'src/**/*.{ts,tsx}' --write"
   },
   "dependencies": {
-    "global": "^4.4.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "typescript": "^4.6.4"
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
@@ -43,10 +41,12 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "global": "^4.4.0",
     "prettier": "^2.6.2",
     "prettier-eslint-cli": "^6.0.1",
     "rollup-plugin-dts": "^4.2.2",
-    "rollup-plugin-typescript2": "^0.31.2"
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
   },
   "peerDependencies": {
     "react": ">=17.0.0"
